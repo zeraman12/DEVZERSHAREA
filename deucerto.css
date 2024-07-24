@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('Site principal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    border: solid rgba(0, 0, 0, 0.151);
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px; /* Espaço entre os links */
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; /* Remove a sublinha dos links */
+    transition: color 0.3s, background-color 0.3s; /* Transição suave para a cor */
+    padding: 10px 20px; /* Espaçamento interno dos links */
+    border-radius: 5px; /* Cantos arredondados dos links */
+}
+
+.navbar a:hover {
+    color: rgb(214, 214, 214);
+    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo ao passar o mouse */
+}
+
+.logo:hover {
+    color: rgb(214, 214, 214);
+    transition: 1s;
+}
+
+.OptmizeStart {
+    margin-top: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 600px;
+    border-radius: 90px;
+    border: solid rgba(0, 0, 0, 0.151);
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.OptmizeStart h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.saibaMais {
+    height: 90px;
+    width: 200px;
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+    border: 2px solid rgba(79, 79, 79, 0.144);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.saibaMais:hover {
+    background-color: rgb(189, 187, 187);
+    transition: 1s;
+    border: 2px solid rgba(2, 2, 2, 0.144);
+}
